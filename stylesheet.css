@@ -1,0 +1,115 @@
+*{
+    font-family: sans-serif, Arial, Helvetica;
+    box-sizing: border-box;
+}
+body{
+    background-color: #878787;
+    color: white;
+    line-height: 1.5em;
+    width: 80%;
+    margin: auto;
+} 
+h1{
+    text-align: center;
+    padding: 20px 0 ;
+    margin: 0;
+    background-color: black;
+} 
+nav a{
+    color: white; 
+    text-decoration: none;
+    padding: 15px;
+   
+}
+nav{
+    background-color: black;
+    padding: 15px;
+    position: fixed;
+    width: inherit; 
+}  
+nav a.active{
+    background-mcolor: red;
+}
+nav a:hover:not(.active){
+    text-decoration: underline; 
+    background-color: blue;
+    color: white;
+   
+} 
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+h2,h3{
+    text-align: center;
+  text-shadow: 4px 3px 4px white;
+  color: black; 
+  padding-top: 40px;
+} 
+aside{
+  background-color: #2D2D2D;
+  width: 50%;
+  order: 1;
+  border-radius: 3rem;
+   
+}
+aside h4{
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+    font-family: Impact;
+}
+#wrapper{
+    display: flex;
+}
+main{
+    order: 2;
+    margin: 0 2rem 0 2rem ;
+    line-height: 2rem;
+}
+
+ol{
+    list-style-type:square;
+} 
+cite{
+    color: #2D2D2D;
+}  
+article{
+    display: flex;
+
+}
+article img{
+order: 1;
+margin: 0 2rem 2rem 0;
+border-radius: 1rem;
+}
+p{
+    order: 2;
+    line-height: 2rem;
+}
+video{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+} 
+
+footer{
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    background-color: black;
+    margin: 5px;  
+     animation: footer 3s infinite;
+     position: relative;
+
+}  
+@keyframes footer{
+    from{background-color: black;}
+    to{background-color: brown; transform: rotateX(50deg);}
+}
+
+
+
